@@ -19,6 +19,8 @@
   - assegnare alla variabile il valore restituito dal prompt
 
 ## Scrivere risultato concatenazione
+
+   - dichiarare una variabile dove concateniamo le stringhe sopra
    
    - inserire nell'html un tag h1 con id scelto
 
