@@ -4,48 +4,51 @@
 
 //   - dichiarare una variabile
 
-      let userName;
-
+let userName;
+      
 //   - assegnare alla variabile il valore restituito dal prompt
 
-    userName = prompt ("Qual è il tuo nome?");
-    console.log(userName);
+userName = prompt ("Qual è il tuo nome?");
 
 // ## chiedere all'utente il suo cognome
 
 //   - dichiarare una variabile
+
       
-    let userSurname;
+let userSurname;
 
 //   - assegnare alla variabile il valore restituito dal prompt
 
-      userSurname = prompt("Qual è il tuo cognome?");
-      console.log(userSurname);
-
+userSurname = prompt("Qual è il tuo cognome?");
+      
 // ## chiedere all'utente il suo colore preferito
 
 //   - dichiarare una variabile
 
-      let color;
+let color;
 
 //   - assegnare alla variabile il valore restituito dal prompt
 
-      color = prompt("Qual è il tuo colore preferito?");
-      console.log(color);
+color = prompt("Qual è il tuo colore preferito?");
+
+// ## Generare casualmente un numero da mettere nella password
+  
+//   - creare variabile che contenga le funzioni per generare un numero casuale
+
+num = Math.round(Math.random() * 100);
 
 // ## Scrivere risultato concatenazione
 
 //    - dichiarare una variabile dove concateniamo le stringhe sopra
 
-      const message ="La tua password è: " + userName + userSurname + color + 21;
-      console.log(message);
-   
+const message ="La tua password è:  "+ userName + userSurname + color + num; 
+  
 //    - inserire nell'html un tag h1 con id scelto
 
 //    - recuperare dall'html con js l'elemento con lo stesso id scelto 
       
-       const domOutput = document.getElementById("output");
-    
+const domOutput = document.getElementById("output");
+
 //    - modificare l'innerHTML del h1 inserito in html con il valore della variabile con id scelto
-      
-      domOutput.innerHTML = message;
+
+domOutput.innerHTML = message;

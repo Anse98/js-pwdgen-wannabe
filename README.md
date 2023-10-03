@@ -18,6 +18,9 @@
 
   - assegnare alla variabile il valore restituito dal prompt
 
+## Generare casualmente un numero da mettere nella password
+  
+  - creare variabile che contenga le funzioni per generare un numero casuale
 ## Scrivere risultato concatenazione
 
    - dichiarare una variabile dove concateniamo le stringhe sopra
